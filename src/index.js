@@ -1,17 +1,22 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+// export { default as Modal } from './lib/Modal';
+import React, { useState } from 'react';
+import ReactDOM from 'react-dom';
+import Modal from './lib/Modal'; // Assurez-vous que le chemin d'importation est correct
+import './lib/Modal.css'; // Importez le CSS si nécessaire
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+const App = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+  const openModal = () => setIsModalOpen(true);
+  const closeModal = () => setIsModalOpen(false);
+
+  return (
+    <div>
+      <h1>Test du Composant Modal</h1>
+      <button onClick={openModal}>Ouvrir la Modal</button>
+      {isModalOpen && <Modal onClose={closeModal}>success</Modal>}
+    </div>
+  );
+};
+
+ReactDOM.render(<App />, document.getElementById('root'));
