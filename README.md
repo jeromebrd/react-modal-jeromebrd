@@ -5,13 +5,13 @@ A simple React modal component with customizable text.
 ## Installation
 
 ```bash
-npm install react-modal-by-jeromebrd
+npm install react-modal-jeromebrd
 ```
 
 ## Usage
 
 ```jsx
-import Modal from 'react-modal-by-jeromebrd';
+import Modal from 'react-modal-jeromebrd';
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
