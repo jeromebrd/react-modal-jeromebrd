@@ -1,5 +1,5 @@
 {
-  "name": "react-modal-by-jeromebrd",
+  "name": "react-modal-jeromebrd",
   "description": "A simple React modal component with customizable text.",
   "version": "0.1.0",
   "main": "dist/index.js",
@@ -11,9 +11,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/jeromebrd/react-modal-by-jeromebrd.git"
+    "url": "https://github.com/jeromebrd/react-modal-jeromebrd.git"
   },
-  "homepage": "https://github.com/jeromebrd/react-modal-by-jeromebrd",
+  "homepage": "https://github.com/jeromebrd/react-modal-jeromebrd",
   "keywords": [
     "react",
     "modal",
