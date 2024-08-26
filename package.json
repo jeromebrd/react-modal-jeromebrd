@@ -1,7 +1,9 @@
 {
   "name": "react-modal-by-jeromebrd",
+  "description": "A simple React modal component with customizable text.",
   "version": "0.1.0",
   "main": "dist/index.js",
+  "author": "jeromebrd",
   "module": "dist/index.js",
   "files": [
     "dist",
