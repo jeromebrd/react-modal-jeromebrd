@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './Modal.css';
 
-const Modal = ({ onClose, children }) => {
+export function Modal({ onClose, children }) {
   return (
     <div className={'modal-overlay'}>
       <div id="confirmation" className={'modal-content'}>
@@ -13,11 +13,9 @@ const Modal = ({ onClose, children }) => {
       </div>
     </div>
   );
-};
+}
 
 Modal.propTypes = {
   onClose: PropTypes.func.isRequired,
   children: PropTypes.string,
 };
-
-export default Modal;

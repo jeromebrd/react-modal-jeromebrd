@@ -1,8 +1,7 @@
-// export { default as Modal } from './lib/Modal';
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
-import Modal from './lib/Modal'; // Assurez-vous que le chemin d'importation est correct
-import './lib/Modal.css'; // Importez le CSS si nécessaire
+import { Modal } from './lib/Modal';
+import './lib/Modal.css';
 
 const App = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);

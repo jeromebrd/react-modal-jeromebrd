@@ -17,8 +17,12 @@
   position: relative;
   width: 90%;
   max-width: 500px;
+  min-height: 100px;
   text-align: center;
   margin: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .modal-close-button {
