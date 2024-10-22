@@ -28,4 +28,4 @@ function App() {
 ## Props
 
 - **onClose (_required_):** A function that will be called when the modal should be closed (e.g., when the user clicks the close button).
-- **children (_optional_):** Content to display inside the modal. (type : string)
+- **children (_optional_):** Content to display inside the modal. (type : string|node)

@@ -1,4 +1,1 @@
-import { Modal } from './Modal';
-import './Modal.css';
-
-export { Modal };
+export { Modal } from './Modal';

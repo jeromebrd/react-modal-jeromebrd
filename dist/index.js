@@ -10,4 +10,3 @@ Object.defineProperty(exports, "Modal", {
   }
 });
 var _Modal = require("./Modal");
-require("./Modal.css");
